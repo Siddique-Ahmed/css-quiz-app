@@ -162,7 +162,7 @@ body button:active {
 
 /* ############## media Query ###################### */
 
-@media(max-width: 385px){
+@media(max-width: 390px){
   body{
     padding: 30px 10px;
   }
@@ -171,7 +171,7 @@ body button:active {
     padding: 0;
   }
   .quizContainer h2{
-    font-size: 17px;
+    font-size: 25px;
     margin-bottom: 10px;
   }
   .quizContainer ul{
@@ -187,8 +187,9 @@ body button:active {
     height: 15px;
   }
   .quizContainer ul li label{
-    font-size: 14px;
+    font-size: 20px;
     width: 90%;
+    word-wrap: break-word;
   }
   body button{
     align-self: flex-start;
