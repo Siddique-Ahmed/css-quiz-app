@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS || QUIZ || APP</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <div class="alert">
+      <span>Please select an answer</span>
+    </div>
+    <div class="quizContainer">
+      <h2 id="question">Quiz</h2>
+      <ul id="quizOption">
+        <li>
+          <input type="radio" class="answer" name="quizOption" id="optionA" />
+          <label id="textOptionA" for="optionA">Option A</label>
+        </li>
+        <li>
+          <input type="radio" class="answer" name="quizOption" id="optionB" />
+          <label id="textOptionB" for="optionB">Option B</label>
+        </li>
+        <li>
+          <input type="radio" class="answer" name="quizOption" id="optionC" />
+          <label id="textOptionC" for="optionC">Option C</label>
+        </li>
+        <li>
+          <input type="radio" class="answer" name="quizOption" id="optionD" />
+          <label id="textOptionD" for="optionD">Option D</label>
+        </li>
+      </ul>
+    </div>
+
+    <div class="result">
+      <h2>Result</h2>
+      <h5 id="greet">Congratulation You are passed</h5>
+
+      <div class="marks">
+        <p id="totalMarks">Total Marks : <span>10</span></p>
+        <p id="obtainedMarks">Obtained Marks : <span>10</span></p>
+      </div>
+    </div>
+    <button id="submit">Next</button>
+
+    <!-- ################ script file ################ -->
+    <script src="./script.js"></script>
+  </body>
+</html>
